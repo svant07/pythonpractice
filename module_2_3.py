@@ -8,10 +8,6 @@ while a < len(my_list):
     elif my_list[a] == 0:
         a = a + 1
         continue
-    elif my_list[a] == my_list[-1]:
-          if a > 0:
-              print(my_list[a])
-              break
     elif my_list[a] > 0:
         print(my_list[a])
         a = a + 1
