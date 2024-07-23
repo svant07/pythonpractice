@@ -9,10 +9,8 @@ for i in numbers:
     for j in range(2, i):
         if i % j == 0:
             not_primes.append(i)
-            #is_prime = False
             break
     if i not in not_primes:
             primes.append(i)
-            #is_prime = True
 print('Primes: ', primes)
 print('Not primes: ', not_primes)
