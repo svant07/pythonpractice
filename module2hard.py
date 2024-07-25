@@ -24,5 +24,5 @@ for i in first:
                 passw.append(j)
                 result = result + str(i) + str(j)
 
-print(result)
+print('Пароль: ', result)
 
