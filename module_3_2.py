@@ -1,5 +1,5 @@
 def send_email(message, recipient, *, sender="university.help@gmail.com"):
-    # for i in range():
+
     if "@" in recipient and ".com" in recipient or ".ru" in recipient or ".net" in recipient: # "@" in sender or ".com" in sender or ".ru" in sender or ".net" in sender:
         if "@" in sender and ".com" in sender or ".ru" in sender or ".net" in sender:
 
