@@ -12,7 +12,6 @@ class House:
             for i in range(new_floor):
                 print(i + 1)
 
-
 h1 = House('ЖК Горский', 18)
 h2 = House('Домик в деревне', 2)
 h1.go_to(5)
